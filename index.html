@@ -1,0 +1,114 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Seat Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <label id="name">Welcome to Yusuf Cinemas</label>
+    <div class="movie-container">
+        <label>Select Movie</label>
+        <select id="movie">
+            <option value="250">Iron Man(250rs)</option>
+            <option value="200">Spider Man(200rs)</option>
+            <option value="250">Venom(250rs)</option>
+            <option value="300">Loki(300rs)</option>
+            <option value="350">Joker(350rs)</option>
+            <option value="200">Hitman(200rs)</option>
+        </select>
+    </div>
+    <ul class="showcase">
+        <li>
+            <div class="seat "></div>
+            <small>N-A</small>
+        </li>
+
+        <li>
+            <div class="seat selected"></div>
+            <small>Selected seat</small>
+        </li>
+
+        <li>
+            <div class="seat book"></div>
+            <small>Booked</small>
+        </li>
+    </ul>
+    <div class="container">
+        <div class="screen"></div>
+        <div class="row">
+            <div class="seat book"></div>
+            <div class="seat"></div>
+            <div class="seat book"></div>
+            <div class="seat book"></div>
+            <div class="seat book"></div>
+            <div class="seat book"></div>
+            <div class="seat "></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat book"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat book"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat book"></div>
+            <div class="seat"></div>
+            <div class="seat book"></div>
+            <div class="seat book"></div>
+            <div class="seat book"></div>
+            <div class="seat book"></div>
+            <div class="seat"></div>
+            <div class="seat book"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat book"></div>
+            <div class="seat"></div>
+            <div class="seat book"></div>
+            <div class="seat "></div>
+            <div class="seat "></div>
+            <div class="seat book"></div>
+            <div class="seat book"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat book"></div>
+            <div class="seat book"></div>
+            <div class="seat "></div>
+            <div class="seat "></div>
+            <div class="seat book"></div>
+            <div class="seat book"></div>
+            <div class="seat book"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat "></div>
+            <div class="seat book"></div>
+            <div class="seat book"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat book"></div>
+            <div class="seat "></div>
+            <div class="seat"></div>
+        </div>
+    </div>
+    <p class="text">
+        You have selected <span id="count">0</span> seats for a price of Rs <span id="total">0</span>
+    </p>
+    <script src="index.js"></script>
+</body>
+
+</html>
